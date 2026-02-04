@@ -43,6 +43,10 @@
     --warning: 38 92% 50%;
     --warning-foreground: 222 47% 6%;
 
+    /* Hot orange for trending */
+    --hot: 25 95% 53%;
+    --hot-foreground: 210 40% 98%;
+
     --border: 217 33% 20%;
     --input: 217 33% 17%;
     --ring: 185 100% 50%;
