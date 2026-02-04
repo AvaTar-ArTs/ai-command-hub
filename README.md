@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+**URL**: [https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID](https://lovable.dev/projects/03fd8158-176b-4e7b-9f3d-09d129e2fdbc)
 
 ## How can I edit this code?
 
@@ -24,10 +24,10 @@ Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone  (https://github.com/AvaTar-ArTs/ai-command-hub.git)
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd ai-command-hub
 
 # Step 3: Install the necessary dependencies.
 npm i
