@@ -1,6 +1,7 @@
-import { DollarSign, TrendingUp, Flame, Rocket, Bot, Shield, AlertTriangle } from "lucide-react";
-import { revenueMetrics } from "@/data/revenueData";
+import { DollarSign, TrendingUp, Flame, Rocket, Bot, Shield } from "lucide-react";
+import { revenueMetrics, revenueVerticals } from "@/data/revenueData";
 import { cn } from "@/lib/utils";
+import { AreaChart, Area, ResponsiveContainer, Tooltip } from "recharts";
 
 interface MetricItemProps {
   label: string;
@@ -9,6 +10,15 @@ interface MetricItemProps {
   color?: string;
   suffix?: string;
 }
+
+// Generate sparkline data from verticals
+const sparklineData = revenueVerticals
+  .sort((a, b) => a.monthlyRevenue - b.monthlyRevenue)
+  .map((v, i) => ({
+    name: v.name,
+    value: v.monthlyRevenue,
+    growth: v.growth,
+  }));
 
 function MetricItem({ label, value, icon: Icon, color = "text-primary", suffix }: MetricItemProps) {
   return (
@@ -37,6 +47,37 @@ export function RevenueMetrics() {
           </h3>
           <p className="text-xs text-muted-foreground">Monetization metrics</p>
         </div>
+      </div>
+
+      {/* Mini Chart */}
+      <div className="h-16 mb-4 -mx-2">
+        <ResponsiveContainer width="100%" height="100%">
+          <AreaChart data={sparklineData}>
+            <defs>
+              <linearGradient id="revenueGradientMini" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="5%" stopColor="#4ADE80" stopOpacity={0.4} />
+                <stop offset="95%" stopColor="#4ADE80" stopOpacity={0} />
+              </linearGradient>
+            </defs>
+            <Tooltip
+              contentStyle={{
+                backgroundColor: "#1e293b",
+                border: "1px solid #334155",
+                borderRadius: "6px",
+                fontSize: "12px",
+              }}
+              formatter={(value: number) => [`$${value.toLocaleString()}`, "Revenue"]}
+              labelFormatter={(label) => `${label}`}
+            />
+            <Area
+              type="monotone"
+              dataKey="value"
+              stroke="#4ADE80"
+              strokeWidth={2}
+              fill="url(#revenueGradientMini)"
+            />
+          </AreaChart>
+        </ResponsiveContainer>
       </div>
 
       {/* Primary metrics */}
