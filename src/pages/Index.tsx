@@ -11,7 +11,11 @@ import {
   DollarSign,
   TrendingUp,
   Flame,
+  GraduationCap,
+  BookOpen,
+  ArrowRight,
 } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 import { Header } from "@/components/dashboard/Header";
 import { MetricCard } from "@/components/dashboard/MetricCard";
 import { ServiceCard } from "@/components/dashboard/ServiceCard";
@@ -34,6 +38,7 @@ import { revenueVerticals, revenueMetrics } from "@/data/revenueData";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 export default function Index() {
+  const navigate = useNavigate();
   const hotVerticals = revenueVerticals.filter(v => v.trendStatus === "hot");
   const risingVerticals = revenueVerticals.filter(v => v.trendStatus === "rising");
 
@@ -264,6 +269,39 @@ export default function Index() {
                   ))}
                 </div>
               </div>
+
+              {/* Knowledge Hub CTA */}
+              <button
+                onClick={() => navigate("/learn")}
+                className="group relative overflow-hidden rounded-lg border border-primary/30 bg-gradient-to-br from-primary/10 via-card to-hot/5 p-5 text-left transition-all hover:border-primary/50 hover:shadow-[0_0_30px_hsl(var(--primary)/0.1)]"
+              >
+                <div className="absolute top-0 right-0 w-32 h-32 bg-primary/10 rounded-full blur-2xl group-hover:bg-primary/20 transition-colors" />
+                <div className="relative">
+                  <div className="mb-3 flex items-center gap-2">
+                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/20 text-primary">
+                      <GraduationCap className="h-5 w-5" />
+                    </div>
+                    <div>
+                      <h3 className="font-mono text-sm font-semibold">Knowledge Hub</h3>
+                      <p className="text-xs text-muted-foreground">Learn & Master AI</p>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-4 mb-3">
+                    <div className="flex items-center gap-1 text-xs text-muted-foreground">
+                      <BookOpen className="h-3 w-3" />
+                      5 Courses
+                    </div>
+                    <div className="flex items-center gap-1 text-xs text-muted-foreground">
+                      <Flame className="h-3 w-3 text-hot" />
+                      5 Day Streak
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-2 text-xs font-medium text-primary group-hover:gap-3 transition-all">
+                    Start Learning
+                    <ArrowRight className="h-3 w-3" />
+                  </div>
+                </div>
+              </button>
 
               {/* Python Script Categories */}
               <div className="rounded-lg border border-border bg-card p-5">

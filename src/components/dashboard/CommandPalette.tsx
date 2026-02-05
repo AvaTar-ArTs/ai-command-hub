@@ -87,6 +87,7 @@ const quickActions = [
 
 const navigationItems = [
   { id: "home", icon: BarChart3, label: "Dashboard", path: "/" },
+  { id: "learn", icon: Brain, label: "Knowledge Hub", path: "/learn" },
   { id: "settings", icon: Settings, label: "Settings", path: "/settings" },
 ];
 
