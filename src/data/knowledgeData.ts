@@ -277,8 +277,8 @@ In the following lessons, we'll explore how to effectively use these models thro
     icon: Search,
     color: "hot",
     difficulty: "intermediate",
-    duration: "12 hours",
-    lessonsCount: 20,
+    duration: "15 hours",
+    lessonsCount: 12,
     featured: true,
     new: true,
     tags: ["XEO", "GEO", "SEO", "AI Search", "Optimization"],
@@ -345,14 +345,202 @@ In this course, you'll learn to build a unified strategy that works across all d
             duration: "25 min",
             contentType: "article",
             status: "available",
+            content: `# From SEO to XEO: The Evolution of Search Optimization
+
+## The Death of Traditional SEO?
+
+According to Gartner's 2024 research, **traditional search volume will drop by 25% by 2026** as AI assistants become primary discovery channels. This isn't the death of SEO—it's an evolution.
+
+## Timeline of Search Evolution
+
+\`\`\`
+1990s: Directory-based (Yahoo!)
+2000s: Keyword-based (Google PageRank)
+2010s: Intent-based (Semantic Search)
+2020s: AI-based (Generative Answers)
+2025+: XEO Era (Cross-Engine Discovery)
+\`\`\`
+
+## The Fragmentation Problem
+
+Modern users discover information through:
+
+| Channel | % of Discovery | Key Demographic |
+|---------|---------------|-----------------|
+| Google Search | 45% (declining) | All ages |
+| AI Assistants | 25% (rising) | 18-45 |
+| Social Search (TikTok) | 15% | Gen Z |
+| Voice Assistants | 10% | Families |
+| Vertical Platforms | 5% | Intent-based |
+
+## What XEO Solves
+
+**Traditional SEO Gaps:**
+- Optimized for one engine only
+- Focused on rankings, not answers
+- Ignored AI citation opportunities
+- Missed social discovery
+
+**XEO Approach:**
+- Unified strategy across all engines
+- Focus on being THE answer
+- Active citation building
+- Platform-specific optimization
+
+## The XEO Maturity Model
+
+### Level 1: SEO Foundation
+- Technical SEO excellence
+- Content quality
+- Link authority
+
+### Level 2: Multi-Platform Presence
+- Social media optimization
+- Video content strategy
+- Local search optimization
+
+### Level 3: AI Optimization
+- Entity recognition
+- Citation building
+- Structured data for AI
+
+### Level 4: XEO Mastery
+- Unified measurement
+- Cross-platform attribution
+- Predictive optimization
+
+## Key Metrics Shift
+
+| Old Metric | New Metric |
+|------------|------------|
+| Rankings | AI Citations |
+| CTR | Answer Inclusion Rate |
+| Backlinks | Entity Authority |
+| Traffic | Discovery Share |
+
+## Action Items
+
+1. Audit your current SEO foundation
+2. Map your presence across all discovery channels
+3. Identify AI citation opportunities
+4. Build unified measurement framework`,
           },
           {
             id: "ai-search-landscape",
             title: "The AI Search Landscape",
             description: "Understanding ChatGPT, Perplexity, and more",
             duration: "30 min",
-            contentType: "video",
-            status: "locked",
+            contentType: "article",
+            status: "available",
+            content: `# The AI Search Landscape in 2025
+
+## Market Overview
+
+The AI search market has exploded with **$200M+ raised** across GEO/AEO tools and platforms. Understanding this landscape is crucial for XEO success.
+
+## Major AI Search Platforms
+
+### ChatGPT Search
+- **Users**: 100M+ weekly active
+- **Model**: GPT-4 with real-time browsing
+- **Citation style**: Inline links + sources
+- **Key insight**: Prefers authoritative, recent content
+
+### Perplexity AI
+- **Users**: 15M+ monthly
+- **Model**: Multiple (Claude, GPT-4, custom)
+- **Citation style**: Numbered citations with previews
+- **Key insight**: Heavy emphasis on source credibility
+
+### Google AI Overviews (SGE)
+- **Users**: Billions (integrated into Google)
+- **Model**: Gemini
+- **Citation style**: Expandable source cards
+- **Key insight**: Favors Google-indexed content
+
+### Claude AI
+- **Users**: 5M+ monthly
+- **Model**: Claude 3.5 Sonnet/Opus
+- **Citation style**: Contextual mentions
+- **Key insight**: Values nuanced, comprehensive content
+
+### Microsoft Copilot
+- **Users**: 30M+ monthly
+- **Model**: GPT-4 + Bing
+- **Citation style**: Footnote-style links
+- **Key insight**: Bing index influences results
+
+## How AI Engines Select Sources
+
+\`\`\`
+Query Received
+     ↓
+Intent Classification
+     ↓
+Knowledge Retrieval (RAG)
+     ↓
+Source Ranking Factors:
+├── Authority (E-E-A-T signals)
+├── Recency (freshness)
+├── Relevance (semantic match)
+├── Credibility (citations, reviews)
+└── Accessibility (crawlable, structured)
+     ↓
+Answer Generation + Citations
+\`\`\`
+
+## The Citation Economy
+
+### What Gets Cited?
+
+**High Citation Probability:**
+- Primary research and data
+- Expert opinions with credentials
+- Comprehensive guides
+- Official documentation
+- Unique insights
+
+**Low Citation Probability:**
+- Generic content
+- Thin affiliate content
+- Outdated information
+- Duplicate/syndicated content
+
+## Platform-Specific Strategies
+
+### For ChatGPT
+- Publish original research
+- Use clear, structured formatting
+- Include expert credentials
+- Keep content current
+
+### For Perplexity
+- Focus on factual accuracy
+- Provide multiple data points
+- Build topical authority
+- Get linked from authoritative sources
+
+### For Google AI Overviews
+- Maintain strong traditional SEO
+- Implement comprehensive schema
+- Focus on EEAT signals
+- Create definitive resources
+
+## Tools for AI Search Monitoring
+
+| Tool | Focus | Pricing |
+|------|-------|---------|
+| Otterly.ai | AI citation tracking | $25/mo |
+| Profound | AI visibility metrics | $99/mo |
+| Goodie AI | GEO analytics | $79/mo |
+| Semrush Copilot | Integrated SEO+AI | Enterprise |
+
+## Future Trends
+
+1. **Agentic search**: AI agents browsing and acting
+2. **Multimodal answers**: Images, video in AI responses
+3. **Real-time citations**: Live source verification
+4. **Personalized discovery**: Context-aware results`,
           },
         ],
       },
@@ -368,23 +556,340 @@ In this course, you'll learn to build a unified strategy that works across all d
             description: "Optimizing for AI-generated answers",
             duration: "35 min",
             contentType: "article",
-            status: "locked",
+            status: "available",
+            content: `# GEO Fundamentals: Optimizing for AI-Generated Answers
+
+## What is GEO?
+
+**Generative Engine Optimization (GEO)** is the practice of optimizing content to be selected, cited, and recommended by AI-powered search engines and assistants.
+
+## The GEO Landscape
+
+### Market Size & Growth
+- **$200M+** raised in GEO tools (2024-2025)
+- **60%** of searches now involve AI platforms
+- **40%** of Gen Z prefers AI for information discovery
+
+### Key Platforms
+- ChatGPT (OpenAI)
+- Perplexity AI
+- Google AI Overviews
+- Microsoft Copilot
+- Claude AI
+
+## Core GEO Principles
+
+### 1. Entity Recognition
+AI systems understand entities, not just keywords:
+\`\`\`
+Keyword: "best running shoes"
+Entity: Nike Air Max 90 (product entity)
+        with attributes: price, reviews, features
+\`\`\`
+
+### 2. Semantic Authority
+Build topical authority through:
+- Comprehensive coverage of topics
+- Consistent terminology
+- Expert credentials
+- Cross-references
+
+### 3. Citation Worthiness
+Content that gets cited:
+- Original research/data
+- Expert opinions
+- Unique insights
+- Definitive guides
+
+## GEO Ranking Factors
+
+| Factor | Weight | How to Optimize |
+|--------|--------|-----------------|
+| Authority | High | E-E-A-T signals, credentials |
+| Relevance | High | Semantic matching, intent |
+| Freshness | Medium | Regular updates, timestamps |
+| Structure | Medium | Schema, headings, lists |
+| Uniqueness | High | Original data, insights |
+
+## GEO Tools Comparison
+
+### Tier 1: Enterprise
+| Tool | Price | Features |
+|------|-------|----------|
+| Profound | $99/mo | AI visibility, citations |
+| Semrush Copilot | $449/mo | Integrated SEO+GEO |
+| Evertune | $3,000/mo | Enterprise AI monitoring |
+
+### Tier 2: SMB
+| Tool | Price | Features |
+|------|-------|----------|
+| Otterly.ai | $25/mo | Citation tracking |
+| Goodie AI | $79/mo | GEO analytics |
+| Scrunch AI | $300/mo | Influencer + AI |
+
+### Tier 3: Emerging
+- Peec AI (€89/mo) - European focus
+- Relixir (Y Combinator) - Real-time monitoring
+
+## Implementation Framework
+
+### Step 1: Audit
+- Map current AI visibility
+- Identify citation gaps
+- Analyze competitor citations
+
+### Step 2: Optimize
+- Enhance entity signals
+- Add structured data
+- Improve content comprehensiveness
+
+### Step 3: Monitor
+- Track AI mentions
+- Measure citation frequency
+- Analyze answer inclusion
+
+### Step 4: Iterate
+- A/B test content formats
+- Update based on AI changes
+- Scale winning patterns`,
           },
           {
             id: "entity-optimization",
             title: "Entity Optimization",
             description: "Making your brand AI-recognizable",
             duration: "40 min",
-            contentType: "interactive",
-            status: "locked",
+            contentType: "article",
+            status: "available",
+            content: `# Entity Optimization: Making Your Brand AI-Recognizable
+
+## What is Entity Optimization?
+
+Entity optimization is the process of establishing your brand, products, or content as recognized entities within AI knowledge systems.
+
+## How AI Understands Entities
+
+\`\`\`
+Raw Text: "Apple released a new phone"
+     ↓
+Entity Recognition:
+├── Apple (Organization) → Apple Inc.
+├── phone (Product) → iPhone
+└── released (Action) → Product Launch
+     ↓
+Knowledge Graph Connection:
+Apple Inc. → releases → iPhone 15 → category: smartphones
+\`\`\`
+
+## The Entity Stack
+
+### Level 1: Named Entities
+- Brand names
+- Product names
+- Person names
+- Location names
+
+### Level 2: Attribute Entities
+- Features
+- Specifications
+- Categories
+- Relationships
+
+### Level 3: Context Entities
+- Industry
+- Use cases
+- Competitors
+- Trends
+
+## Building Entity Recognition
+
+### 1. Wikipedia Strategy
+Wikipedia is the foundation of most AI knowledge:
+- Create/improve Wikipedia page
+- Ensure accuracy and citations
+- Link to authoritative sources
+
+### 2. Knowledge Graph Optimization
+- Google Knowledge Panel
+- Wikidata entries
+- Schema.org markup
+
+### 3. Brand Consistency
+Maintain consistent:
+- Name spelling
+- Description language
+- Category placement
+- Attribute terminology
+
+## Entity Signals
+
+| Signal | Importance | Implementation |
+|--------|------------|----------------|
+| Schema Markup | Critical | Organization, Product, Person |
+| Wikipedia | High | Verified page with citations |
+| Knowledge Panel | High | Claim and optimize |
+| Social Profiles | Medium | Consistent branding |
+| News Coverage | Medium | Press releases, features |
+
+## Entity Optimization Checklist
+
+**Foundational:**
+- [ ] Organization schema on website
+- [ ] Consistent NAP (Name, Address, Phone)
+- [ ] Claimed Google Business Profile
+- [ ] Verified social profiles
+
+**Advanced:**
+- [ ] Wikipedia page or mention
+- [ ] Wikidata entry
+- [ ] Knowledge Panel claimed
+- [ ] Industry association listings
+
+**Expert:**
+- [ ] Structured data for all products
+- [ ] Entity relationships mapped
+- [ ] Cross-platform entity linking
+- [ ] Entity monitoring system
+
+## Tools for Entity Optimization
+
+| Tool | Purpose | Notes |
+|------|---------|-------|
+| Google Search Console | Entity detection | Free |
+| Schema Markup Validator | Structured data | Free |
+| Kalicube | Entity SEO | Paid |
+| InLinks | Entity mapping | Paid |
+
+## Measuring Entity Strength
+
+Track these metrics:
+1. Knowledge Panel appearance rate
+2. AI mention frequency
+3. Entity association accuracy
+4. Brand query classification`,
           },
           {
             id: "citation-building",
             title: "Building AI Citations",
             description: "Getting cited by AI systems",
             duration: "45 min",
-            contentType: "project",
-            status: "locked",
+            contentType: "article",
+            status: "available",
+            content: `# Building AI Citations: Getting Cited by AI Systems
+
+## The Citation Economy
+
+In the AI era, **citations are the new backlinks**. When an AI system cites your content, it:
+- Validates your authority
+- Drives qualified traffic
+- Builds compounding visibility
+
+## What Gets Cited?
+
+### High-Citation Content Types
+
+**1. Original Research (90% citation rate)**
+- Surveys and studies
+- Industry reports
+- Proprietary data
+- Case studies
+
+**2. Expert Content (70% citation rate)**
+- Thought leadership
+- Expert interviews
+- Professional insights
+- Credentialed analysis
+
+**3. Definitive Resources (60% citation rate)**
+- Comprehensive guides
+- Official documentation
+- How-to tutorials
+- Reference materials
+
+### Low-Citation Content Types
+
+**Avoid:**
+- Generic listicles (10%)
+- Thin affiliate content (5%)
+- Duplicate information (2%)
+- Outdated content (3%)
+
+## Citation Building Strategies
+
+### Strategy 1: Data-First Content
+\`\`\`
+Create → Original research/surveys
+Publish → With clear methodology
+Distribute → Press releases, social
+Result → AI systems cite as source
+\`\`\`
+
+### Strategy 2: Expert Positioning
+- Add author credentials
+- Include expert quotes
+- Reference authoritative sources
+- Build personal brand
+
+### Strategy 3: Comprehensiveness
+AI prefers comprehensive sources:
+- Cover all aspects of topic
+- Include examples and data
+- Answer related questions
+- Update regularly
+
+### Strategy 4: Technical Authority
+- Accurate information
+- Proper citations
+- Clear sourcing
+- Fact-checkable claims
+
+## Citation Tracking
+
+### Tools & Methods
+
+| Method | Cost | Accuracy |
+|--------|------|----------|
+| Manual checking | Free | Low |
+| Otterly.ai | $25/mo | High |
+| Profound | $99/mo | High |
+| Custom monitoring | Varies | Medium |
+
+### Metrics to Track
+
+1. **Citation Frequency**: How often cited
+2. **Citation Context**: How you're mentioned
+3. **Citation Quality**: Which AI platforms
+4. **Citation Sentiment**: Positive/neutral/negative
+
+## Citation Optimization Workflow
+
+\`\`\`
+Week 1: Audit current citations
+Week 2: Identify high-potential content
+Week 3: Optimize for citation signals
+Week 4: Build supporting signals
+Week 5+: Monitor and iterate
+\`\`\`
+
+## Advanced Citation Tactics
+
+### 1. Citation Magnets
+Create content specifically for citations:
+- Statistics pages
+- Glossary/definitions
+- Methodology guides
+- Benchmark reports
+
+### 2. Citation Networks
+Build cross-citation relationships:
+- Partner with complementary sources
+- Guest expert contributions
+- Collaborative research
+
+### 3. Real-Time Citation
+Stay current for news citations:
+- Rapid response content
+- Trend commentary
+- Breaking news analysis`,
           },
         ],
       },
@@ -396,11 +901,117 @@ In this course, you'll learn to build a unified strategy that works across all d
         lessons: [
           {
             id: "veo-youtube",
-            title: "VEO: YouTube Optimization",
+            title: "VEO: Video Engine Optimization",
             description: "Video SEO for AI discovery",
             duration: "35 min",
-            contentType: "video",
-            status: "locked",
+            contentType: "article",
+            status: "available",
+            content: `# VEO: Video Engine Optimization
+
+## What is VEO?
+
+**Video Engine Optimization (VEO)** encompasses strategies for optimizing video content across YouTube, TikTok, Instagram Reels, and emerging AI video platforms.
+
+## The Video-First Discovery Shift
+
+### Platform Statistics (2025)
+| Platform | Monthly Users | Search Behavior |
+|----------|--------------|-----------------|
+| YouTube | 2.5B | 65% use as search engine |
+| TikTok | 1.5B | 40% Gen Z prefer for search |
+| Instagram Reels | 2B | Growing discovery feature |
+| Google Veo | Emerging | AI video generation |
+
+## YouTube VEO Strategies
+
+### 1. AI-Optimized Titles
+\`\`\`
+Before: "How to Cook Pasta"
+After: "Perfect Al Dente Pasta in 10 Minutes | Chef's Technique"
+Why: Includes intent + value + credibility
+\`\`\`
+
+### 2. Description Optimization
+- First 200 characters critical
+- Include timestamps
+- Natural keyword integration
+- Links to resources
+
+### 3. Transcript Optimization
+YouTube's AI reads transcripts:
+- Speak keywords naturally
+- Define technical terms
+- Include CTAs verbally
+
+### 4. Thumbnail AI Signals
+- High contrast
+- Faces (1.5x engagement)
+- Text overlay (3-4 words)
+- Consistent branding
+
+## TikTok VEO Strategies
+
+### Algorithm Factors
+1. **Watch time** (most important)
+2. **Completion rate**
+3. **Shares** (viral signal)
+4. **Comments** (engagement)
+5. **Profile visits**
+
+### Optimization Tactics
+- Hook in first 1 second
+- Loop-friendly content
+- Trending sounds
+- Hashtag strategy (3-5 relevant)
+
+## AI Video Platforms
+
+### Google Veo 3.1
+Google's AI video generation:
+- Text-to-video
+- Image-to-video
+- Style transfer
+
+### Implications for VEO
+- AI-generated video competition
+- Authenticity premium
+- Human expertise differentiation
+
+## Video SEO Checklist
+
+**Pre-Production:**
+- [ ] Keyword research for topic
+- [ ] Competitor analysis
+- [ ] Script with natural keywords
+
+**Production:**
+- [ ] Clear audio quality
+- [ ] Good lighting
+- [ ] Engaging visuals
+
+**Post-Production:**
+- [ ] Optimized title
+- [ ] Keyword-rich description
+- [ ] Custom thumbnail
+- [ ] Captions/subtitles
+- [ ] End screens
+- [ ] Cards
+
+## Video Analytics to Track
+
+| Metric | Target | Why |
+|--------|--------|-----|
+| CTR | >5% | Thumbnail/title effectiveness |
+| Watch time | >50% | Content quality |
+| Retention | <20% drop at start | Hook effectiveness |
+| Engagement | >5% | Community building |
+
+## Tools for VEO
+
+- **TubeBuddy**: YouTube optimization
+- **VidIQ**: Analytics + suggestions
+- **Descript**: Transcript editing
+- **Canva**: Thumbnail creation`,
           },
           {
             id: "smo-strategies",
@@ -408,7 +1019,120 @@ In this course, you'll learn to build a unified strategy that works across all d
             description: "Social signals for AI visibility",
             duration: "30 min",
             contentType: "article",
-            status: "locked",
+            status: "available",
+            content: `# SMO: Social Media Optimization for AI Visibility
+
+## The Social-AI Connection
+
+Social signals increasingly influence AI recommendations. Platforms like TikTok, Reddit, and Twitter/X are becoming primary discovery channels.
+
+## Platform-Specific SMO
+
+### TikTok SMO
+**Algorithm Factors:**
+- Watch time & completion
+- Shares (viral multiplier)
+- Saves (value signal)
+- Comments (engagement)
+- Following ratio
+
+**Optimization:**
+- Post 1-4x daily
+- Trend participation
+- Consistent niche
+- Sound optimization
+
+### Reddit SMO
+**Why Reddit Matters:**
+- Google indexes heavily
+- AI systems cite Reddit
+- High engagement signals
+
+**Optimization:**
+- Authentic participation
+- Value-first approach
+- Community guidelines
+- AMA opportunities
+
+### LinkedIn SMO
+**Algorithm Factors:**
+- Dwell time (read depth)
+- Early engagement
+- Share to comment ratio
+- Connection relevance
+
+**Optimization:**
+- Document posts (carousels)
+- Native video
+- Thought leadership
+- Employee advocacy
+
+### Twitter/X SMO
+**Signal Factors:**
+- Retweets (reach)
+- Quote tweets (conversation)
+- Bookmarks (value)
+- Profile clicks
+
+**Optimization:**
+- Thread strategy
+- Visual content
+- Engagement timing
+- Hashtag research
+
+## Social Signals for AI
+
+### What AI Systems Track
+\`\`\`
+Brand Mentions → Entity recognition
+Engagement Rate → Authority signal
+Content Shares → Value indicator
+Follower Quality → Credibility
+Sentiment → Brand perception
+\`\`\`
+
+### Building AI-Relevant Social Signals
+
+1. **Consistent Brand Voice**
+   - Same messaging across platforms
+   - Recognizable visual identity
+   - Coherent topic coverage
+
+2. **Engagement Quality**
+   - Meaningful interactions
+   - Expert responses
+   - Community building
+
+3. **Content Distribution**
+   - Cross-platform sharing
+   - Influencer amplification
+   - UGC encouragement
+
+## SMO Tools
+
+| Tool | Purpose | Pricing |
+|------|---------|---------|
+| Hootsuite | Scheduling | $99/mo |
+| Sprout Social | Analytics | $249/mo |
+| BuzzSumo | Content research | $199/mo |
+| Scrunch AI | Influencer + AI | $300/mo |
+
+## Social Content Calendar
+
+**Daily:**
+- 1 TikTok/Reel
+- 2-3 Twitter posts
+- 1 LinkedIn engagement
+
+**Weekly:**
+- 1 LinkedIn article
+- 1 Reddit contribution
+- 1 Twitter thread
+
+**Monthly:**
+- 1 Influencer collab
+- Platform audit
+- Performance review`,
           },
           {
             id: "leo-local",
@@ -416,7 +1140,423 @@ In this course, you'll learn to build a unified strategy that works across all d
             description: "Local search in the AI era",
             duration: "25 min",
             contentType: "article",
-            status: "locked",
+            status: "available",
+            content: `# LEO: Local Engine Optimization in the AI Era
+
+## Local Search Transformation
+
+AI is reshaping local discovery through:
+- Voice search ("near me" queries)
+- AI-powered recommendations
+- Personalized local results
+- Conversational local queries
+
+## Core LEO Elements
+
+### 1. Google Business Profile
+**Foundation of local visibility:**
+- Claim and verify
+- Complete all fields
+- Regular updates
+- Photo optimization
+- Q&A management
+- Review response
+
+### 2. Local Structured Data
+\`\`\`json
+{
+  "@type": "LocalBusiness",
+  "name": "Business Name",
+  "address": {...},
+  "geo": {...},
+  "openingHours": "...",
+  "priceRange": "$$"
+}
+\`\`\`
+
+### 3. NAP Consistency
+**Name, Address, Phone** must match:
+- Google Business Profile
+- Website
+- Social profiles
+- Directory listings
+- Local citations
+
+## AI-Specific Local Optimization
+
+### Voice Search Optimization
+**40% of local searches** are voice:
+- Natural language content
+- Question-based headings
+- Conversational tone
+- Featured snippet targeting
+
+### AI Assistant Optimization
+For Siri, Alexa, Google Assistant:
+- Yelp profile (Siri)
+- Amazon Local (Alexa)
+- Google Maps (Assistant)
+
+### ChatGPT Local Queries
+AI assistants cite for local:
+- Yelp reviews
+- Google reviews
+- TripAdvisor
+- Local news coverage
+
+## Local Ranking Factors
+
+| Factor | Weight | Optimization |
+|--------|--------|--------------|
+| Relevance | 30% | Category accuracy |
+| Distance | 25% | Service area setup |
+| Prominence | 25% | Reviews, citations |
+| Engagement | 20% | Clicks, calls, directions |
+
+## Local Citation Building
+
+### Core Citations
+- Google Business Profile
+- Yelp
+- Facebook
+- Apple Maps
+- Bing Places
+
+### Industry Citations
+- Industry directories
+- Professional associations
+- Local chambers
+- Niche platforms
+
+### Local Citations
+- Local newspapers
+- Community sites
+- Local blogs
+- Event listings
+
+## Review Strategy
+
+### Review Generation
+- Post-purchase requests
+- Email sequences
+- QR codes in-store
+- Text message requests
+
+### Review Response
+- Respond to ALL reviews
+- Thank positive reviewers
+- Address negative professionally
+- Include keywords naturally
+
+## LEO Tools
+
+| Tool | Purpose | Cost |
+|------|---------|------|
+| BrightLocal | Local rank tracking | $39/mo |
+| Whitespark | Citation building | $33/mo |
+| Yext | Listing management | $499/yr |
+| GatherUp | Review management | $99/mo |
+
+## Local SEO Audit Checklist
+
+**Foundation:**
+- [ ] Google Business verified
+- [ ] NAP consistent
+- [ ] Categories accurate
+- [ ] Service areas defined
+
+**Content:**
+- [ ] Local landing pages
+- [ ] City/neighborhood content
+- [ ] Local schema markup
+- [ ] Local keywords
+
+**Signals:**
+- [ ] Reviews (target: 50+)
+- [ ] Citations (target: 100+)
+- [ ] Local backlinks
+- [ ] Social engagement`,
+          },
+          {
+            id: "aeo-fundamentals",
+            title: "AEO: Answer Engine Optimization",
+            description: "Optimizing for featured snippets and AI answers",
+            duration: "30 min",
+            contentType: "article",
+            status: "available",
+            content: `# AEO: Answer Engine Optimization
+
+## What is AEO?
+
+**Answer Engine Optimization (AEO)** focuses on getting your content featured as direct answers in search engines and AI systems.
+
+## The Zero-Click Reality
+
+### Key Statistics
+- **70% of searches** will be zero-click by 2026
+- Featured snippets get **35% of clicks** when shown
+- AI Overviews appear in **40%+ of queries**
+
+## Answer Formats
+
+### 1. Featured Snippets (Google)
+\`\`\`
+Types:
+├── Paragraph (most common)
+├── List (numbered/bulleted)
+├── Table
+└── Video
+\`\`\`
+
+### 2. AI Overviews
+Google's AI-generated summaries:
+- Synthesized answers
+- Multiple sources
+- Expandable details
+
+### 3. People Also Ask (PAA)
+- Question-based expansion
+- Related queries
+- Infinite scroll
+
+### 4. Knowledge Panels
+- Entity-based information
+- Right sidebar (desktop)
+- Structured data driven
+
+## AEO Optimization Strategies
+
+### Strategy 1: Question Targeting
+Structure content around questions:
+\`\`\`markdown
+## What is [Topic]?
+
+[Topic] is [clear definition in 40-60 words].
+
+## How does [Topic] work?
+
+[Step-by-step explanation...]
+\`\`\`
+
+### Strategy 2: Format Optimization
+
+**For Paragraph Snippets:**
+- 40-60 word definitions
+- Lead with the answer
+- Use "is" statements
+
+**For List Snippets:**
+- Use H2/H3 headers
+- 5-8 items optimal
+- Clear formatting
+
+**For Table Snippets:**
+- Use HTML tables
+- Clear headers
+- Comparable data
+
+### Strategy 3: Schema Markup
+\`\`\`json
+{
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is XEO?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "XEO is..."
+    }
+  }]
+}
+\`\`\`
+
+## Content Structure for AEO
+
+### The AEO Template
+\`\`\`
+1. Definition (40-60 words)
+2. Key benefits (bulleted)
+3. How it works (numbered steps)
+4. Comparison table
+5. FAQ section
+6. Expert quote
+\`\`\`
+
+### Heading Hierarchy
+- H1: Main topic
+- H2: Major questions/sections
+- H3: Sub-questions/details
+- H4: Examples/specifics
+
+## Measuring AEO Success
+
+| Metric | Tool | Target |
+|--------|------|--------|
+| Featured snippet wins | Semrush/Ahrefs | Track growth |
+| PAA presence | SERP trackers | 3+ per topic |
+| Zero-click share | Search Console | Monitor trend |
+| AI Overview inclusion | Manual/tools | Track frequency |
+
+## AEO Tools
+
+- **Ahrefs**: Featured snippet opportunities
+- **Semrush**: Position tracking with SERP features
+- **Clearscope**: Content optimization
+- **Frase**: Question research
+
+## Common AEO Mistakes
+
+1. **Too long** - Keep definitions concise
+2. **No structure** - Use clear formatting
+3. **Missing schema** - Implement FAQ/HowTo
+4. **Poor headings** - Use question format
+5. **No updates** - Refresh regularly`,
+          },
+          {
+            id: "meo-marketplace",
+            title: "MEO: Marketplace Engine Optimization",
+            description: "Amazon, eBay, and marketplace AI",
+            duration: "35 min",
+            contentType: "article",
+            status: "available",
+            content: `# MEO: Marketplace Engine Optimization
+
+## What is MEO?
+
+**Marketplace Engine Optimization (MEO)** is the practice of optimizing product listings for AI-driven discovery on platforms like Amazon, eBay, Etsy, and Walmart.
+
+## The Marketplace AI Revolution
+
+### Platform Search Evolution
+| Platform | AI Features | Impact |
+|----------|-------------|--------|
+| Amazon | Rufus AI, Cosmo | Conversational shopping |
+| eBay | AI listings, Magical | Auto-optimization |
+| Walmart | Search AI | Intent matching |
+| Etsy | Discovery AI | Trend prediction |
+
+## Amazon MEO
+
+### Amazon Rufus (AI Assistant)
+Amazon's shopping AI:
+- Conversational product search
+- Comparison queries
+- Review summaries
+- Recommendation engine
+
+### A9/A10 Algorithm Factors
+
+**Relevance Factors:**
+- Title keywords
+- Backend search terms
+- Product description
+- A+ Content
+
+**Performance Factors:**
+- Sales velocity
+- Conversion rate
+- Reviews (quantity + quality)
+- Inventory health
+
+### Amazon Listing Optimization
+\`\`\`
+Title Formula:
+[Brand] + [Product] + [Key Feature] + [Size/Quantity]
+
+Example:
+"BrandX Wireless Earbuds - Active Noise Cancelling - 40H Battery - Black"
+\`\`\`
+
+## eBay MEO
+
+### eBay AI Features
+- **Magical Listing**: AI-generated descriptions
+- **Smart Pricing**: AI price suggestions
+- **Image Enhancement**: Auto background removal
+
+### eBay SEO Factors
+1. Title optimization (80 chars)
+2. Item specifics (complete all)
+3. High-quality images (12 max)
+4. Competitive pricing
+5. Seller metrics
+
+## Marketplace Content Strategy
+
+### Image Optimization
+- Main: White background, 1000x1000+
+- Lifestyle: Product in use
+- Infographic: Features highlighted
+- Size: Scale reference
+- Detail: Close-ups
+
+### Bullet Point Strategy
+\`\`\`
+Bullet Formula:
+[BENEFIT] - [Feature] that [outcome]
+
+Example:
+"CRYSTAL CLEAR AUDIO - Advanced drivers that deliver studio-quality sound"
+\`\`\`
+
+### Backend Keywords (Amazon)
+- No punctuation needed
+- No competitor brands
+- Include misspellings
+- Use all 250 bytes
+
+## AI Listing Tools
+
+| Tool | Platform | Features |
+|------|----------|----------|
+| Helium 10 | Amazon | Keyword research, listing optimization |
+| Jungle Scout | Amazon | Sales data, competitor analysis |
+| Sellics | Amazon | PPC + listing optimization |
+| ZIK Analytics | eBay | Market research |
+| eRank | Etsy | SEO + trends |
+
+## Review Strategy for Marketplaces
+
+### Review Generation
+- Amazon Vine program
+- Request a Review button
+- Product inserts (compliant)
+- Follow-up emails
+
+### Review Optimization
+- Respond to feedback
+- Address issues publicly
+- Use reviews for keywords
+- Feature in A+ Content
+
+## Marketplace Advertising + MEO
+
+### PPC Integration
+- Use converting keywords in listings
+- Test titles via ads
+- Sponsored Brand videos
+- DSP for awareness
+
+### Organic + Paid Synergy
+\`\`\`
+PPC Data → Keyword Discovery
+   ↓
+Listing Optimization → Better Organic
+   ↓
+Higher Sales → Better Rankings
+   ↓
+Lower ACoS → Profitable Growth
+\`\`\`
+
+## MEO Metrics Dashboard
+
+| Metric | Target | Action |
+|--------|--------|--------|
+| Search rank | Top 10 | Optimize keywords |
+| CTR | >0.5% | Improve images/title |
+| Conversion | >15% | Enhance content |
+| BSR | Track trend | Sales velocity |
+| Reviews | >50, >4.5★ | Quality + quantity |`,
           },
         ],
       },
