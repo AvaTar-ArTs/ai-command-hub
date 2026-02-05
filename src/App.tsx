@@ -5,6 +5,9 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
+import VerticalDetail from "./pages/VerticalDetail";
+import Settings from "./pages/Settings";
+import { CommandPalette } from "./components/dashboard/CommandPalette";
 
 const queryClient = new QueryClient();
 
@@ -14,8 +17,11 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <CommandPalette />
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/vertical/:id" element={<VerticalDetail />} />
+          <Route path="/settings" element={<Settings />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

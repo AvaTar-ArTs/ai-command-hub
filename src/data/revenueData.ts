@@ -11,6 +11,7 @@ import {
   Brain,
   Share2,
   ShoppingCart,
+  type LucideIcon,
 } from "lucide-react";
 
 export type StrategyType = "white" | "grey" | "black";
@@ -21,7 +22,7 @@ export interface RevenueVertical {
   name: string;
   fullName: string;
   description: string;
-  icon: any;
+  icon: LucideIcon;
   monthlyRevenue: number;
   growth: number;
   trendStatus: TrendStatus;

@@ -1,7 +1,8 @@
 import { cn } from "@/lib/utils";
 import { RevenueVertical, StrategyType } from "@/data/revenueData";
-import { TrendingUp, TrendingDown, Flame, Zap, Minus } from "lucide-react";
+import { TrendingUp, TrendingDown, Flame, Zap, Minus, ExternalLink } from "lucide-react";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 interface VerticalCardProps {
   vertical: RevenueVertical;
@@ -28,6 +29,7 @@ const riskColors = {
 
 export function VerticalCard({ vertical }: VerticalCardProps) {
   const [isExpanded, setIsExpanded] = useState(false);
+  const navigate = useNavigate();
   const trend = trendConfig[vertical.trendStatus];
   const TrendIcon = trend.icon;
 
@@ -149,13 +151,25 @@ export function VerticalCard({ vertical }: VerticalCardProps) {
           </div>
         </div>
 
-        {/* Expand button */}
-        <button
-          onClick={() => setIsExpanded(!isExpanded)}
-          className="mt-4 w-full rounded-md bg-muted/50 py-2 text-xs text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
-        >
-          {isExpanded ? "Hide Strategies ↑" : "View All Strategies ↓"}
-        </button>
+        {/* Action buttons */}
+        <div className="mt-4 flex gap-2">
+          <button
+            onClick={() => setIsExpanded(!isExpanded)}
+            className="flex-1 rounded-md bg-muted/50 py-2 text-xs text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+            aria-expanded={isExpanded}
+            aria-label={isExpanded ? "Hide strategies" : "View all strategies"}
+          >
+            {isExpanded ? "Hide Strategies ↑" : "View Strategies ↓"}
+          </button>
+          <button
+            onClick={() => navigate(`/vertical/${vertical.id}`)}
+            className="flex items-center justify-center gap-1 rounded-md bg-primary/10 px-3 py-2 text-xs text-primary transition-colors hover:bg-primary/20"
+            aria-label={`View ${vertical.name} details`}
+          >
+            <span>Details</span>
+            <ExternalLink className="h-3 w-3" />
+          </button>
+        </div>
 
         {/* Expanded strategies */}
         {isExpanded && (
